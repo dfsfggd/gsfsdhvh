@@ -1,5 +1,5 @@
 sal a New-Object;Add-Type -A System.Drawing;
-$g=a System.Drawing.Bitmap("Bakery_idea_and_details_for_freelance.png");
+$g=a System.Drawing.Bitmap("out.png");
 $o=a Byte[] 1572864;
 (0..1535)|%{
     foreach($x in 0..1023) {
